@@ -1,0 +1,14 @@
+.siteLogo{
+width: 250px
+}
+.nav-link{    
+    background: inherit !important;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600 !important;
+}
+@media(max-width: 576px){
+    .siteLogo{
+        width: 180px
+        }
+}
