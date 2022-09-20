@@ -9,8 +9,8 @@ function NftOpenMarket() {
                      <div className="group-image d-flex justify-content-center justify-content-between">
                         
                             <div className="item bg-1 mt-4"><img src="image/nftop.gif" alt="Hudda" width="100%"/></div>
-                             <div className="item bg-2 mt-4"><img src="image/nfto.gif" alt="Hudda"/></div>
                              <div className="item bg-4 mt-4"><img src="image/nftope.gif" alt="Hudda" width="100%"/></div>
+                             <div className="item bg-2 mt-4"><img src="image/nfto.gif" alt="Hudda"/></div>
                             <div className="item bg-3 mt-4"><img src="image/nftopen.gif" alt="Hudda"/></div>
                         
                         

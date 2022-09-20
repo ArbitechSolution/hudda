@@ -16,13 +16,13 @@ export default function Navbars() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav >
-            <Nav.Link href="#features" className='nav-link me-md-2'><Link to="/" style={{color: 'white', textDecoration: 'none'}}>About Us</Link></Nav.Link>
-            <Nav.Link  className='nav-link me-md-2'><Link to="/buyCoin" style={{color: 'white', textDecoration: 'none'}}>Buy Coin</Link></Nav.Link>
-            <Nav.Link href="#pricing" className='nav-link me-md-2'><Link to="/Nft" style={{color: 'white', textDecoration: 'none'}}>NFT</Link></Nav.Link>
-            <Nav.Link href="#pricing" className='nav-link me-md-2'><Link to="/NftOpenMarket" style={{color: 'white', textDecoration: 'none'}}>NFT Open Market</Link></Nav.Link>
-            <Nav.Link href="#pricing" className='nav-link me-md-2'><Link to="/LPFatming" style={{color: 'white', textDecoration: 'none'}}>L.P Farming</Link></Nav.Link>
-            <Nav.Link href="#pricing" className='nav-link me-md-2'><Link to="/Swap_Exchange" style={{color: 'white', textDecoration: 'none'}}>Swap Exchange</Link></Nav.Link>
-            <Nav.Link href="#pricing" className='nav-link me-md-2'><Link to="/WonderLand" style={{color: 'white', textDecoration: 'none'}}>Wonder Land</Link></Nav.Link>
+            <Nav.Link href="#features" className='nav-link me-md-2' style={{color: 'white', textDecoration: 'none'}}><Link to="/" style={{color: 'white', textDecoration: 'none'}}>About Us</Link></Nav.Link>
+            <Nav.Link  className='nav-link me-md-2' style={{color: 'white', textDecoration: 'none'}}><Link to="/buyCoin" style={{color: 'white', textDecoration: 'none'}}>Buy Coin</Link></Nav.Link>
+            <Nav.Link href="#pricing" className='nav-link me-md-2' style={{color: 'white', textDecoration: 'none'}}><Link to="/Nft" style={{color: 'white', textDecoration: 'none'}}>NFT</Link></Nav.Link>
+            <Nav.Link href="#pricing" className='nav-link me-md-2' style={{color: 'white', textDecoration: 'none'}}><Link to="/NftOpenMarket" style={{color: 'white', textDecoration: 'none'}}>NFT Open Market</Link></Nav.Link>
+            <Nav.Link href="#pricing" className='nav-link me-md-2' style={{color: 'white', textDecoration: 'none'}}><Link to="/LPFatming" style={{color: 'white', textDecoration: 'none'}}>L.P Farming</Link></Nav.Link>
+            <Nav.Link href="#pricing" className='nav-link me-md-2' style={{color: 'white', textDecoration: 'none'}}><Link to="/Swap_Exchange" style={{color: 'white', textDecoration: 'none'}}>Swap Exchange</Link></Nav.Link>
+            <Nav.Link href="#pricing" className='nav-link me-md-2' style={{color: 'white', textDecoration: 'none'}}><Link to="/WonderLand" style={{color: 'white', textDecoration: 'none'}}>Wonder Land</Link></Nav.Link>
           </Nav>
           
         </Navbar.Collapse>
