@@ -1,0 +1,29 @@
+.wonderImage{
+    border-radius: 20px;
+    height: 320px;
+    width: 580px;
+}
+.reverse-row{
+    display: flex;
+    flex-direction: row;
+}
+.noreverse-row{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width: 576px){
+    .wonderImage{
+        border-radius: 20px;
+        height: 230px;
+        width: 680px;
+    } 
+    .noreverse-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .reverse-row{
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+    
+}

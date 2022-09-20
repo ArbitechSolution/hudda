@@ -3,14 +3,14 @@ import React from 'react'
 function Nft() {
   return (
     <div className="container d-flex justify-content-center" >
-            <div className="row reverse mt-4" >
-            	<div className="col-xl-6 col-md-12 section-about" >
-                     <div className="group-image">
+            <div className="row reverse mt-4 d-flex justify-content-center" >
+            	<div className="col-xl-6 col-md-12 section-about d-flex justify-content-center" >
+                     <div className="group-image d-flex justify-content-center justify-content-between" >
                         {/* <div className="left"> */}
-                            <div className="item bg-1 mt-4"><img src="image/nfthudda.gif" alt="Hudda" width="100%" /></div>
-                             <div className="item bg-4 mt-4"><img src="image/nfthu.gif" alt="Hudda" width="100%"/></div>
-                             <div className="item bg-2 mt-4"><img src="image/nfthud.gif" alt="Hudda"/></div>
-                            <div className="item bg-3 mt-4"><img src="image/nfthudd.gif" alt="Hudda"/></div>
+                            <div className="item bg-1 mt-4 "><img src="image/nfthudda.gif" alt="Hudda"  className='img-fluid'/></div>
+                             <div className="item bg-4 mt-4"><img src="image/nfthu.gif" alt="Hudda"  className='img-fluid'/></div>
+                             <div className="item bg-2 mt-4"><img src="image/nfthud.gif" alt="Hudda" className='img-fluid'/></div>
+                            <div className="item bg-3 mt-4"><img src="image/nfthudd.gif" alt="Hudda" className='img-fluid'/></div>
                         {/* </div> */}
                         {/* <div className="right">
                             
